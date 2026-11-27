@@ -1,0 +1,19 @@
+{
+    "prefix": "pkr_tinyimagenet",
+    "dataset": "imagenet200",
+    "memory_size": 2000,
+    "memory_per_class": 20,
+    "fixed_memory": false,
+    "shuffle": true,
+    "init_cls": 20,
+    "increment": 20,
+    "model_name": "pkr",
+    "convnet_type": "resnet18",
+    "device": [
+        "0"
+    ],
+    "seed": [
+        2024
+    ],
+    "data_root": "./data/tiny-imagenet-200"
+}
